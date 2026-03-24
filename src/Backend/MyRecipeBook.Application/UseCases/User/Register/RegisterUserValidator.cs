@@ -4,7 +4,7 @@ using MyRecipeBook.Exceptions;
 
 namespace MyRecipeBook.Application.UseCases.User.Register
 {
-    internal class RegisterUserValidator: AbstractValidator<RequestRegisterUserJson> // classe de validação para o registro de usuário
+    public class RegisterUserValidator: AbstractValidator<RequestRegisterUserJson> // classe de validação para o registro de usuário
     {
         public RegisterUserValidator()
         {
